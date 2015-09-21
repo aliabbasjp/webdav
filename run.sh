@@ -25,5 +25,8 @@ if [ ! -f "/etc/apache2/webdav.password" ]; then
     chmod 640 /etc/apache2/webdav.password
 fi
 
+# Apache gets grumpy about PID files pre-existing
+rm -f /var/run/apache2.pid
+
 # start apache
 exec apache2 -D FOREGROUND
