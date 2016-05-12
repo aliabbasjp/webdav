@@ -1,4 +1,4 @@
-FROM armv7/armhf-ubuntu:14.04.3
+FROM ubuntu:14.04
 
 RUN apt-get update \
   && apt-get -y install apache2 openssl apache2-utils \
