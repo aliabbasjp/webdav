@@ -1,4 +1,4 @@
-# Webdav Server in a Docker Container for x86 ubuntu
+# Webdav SSL Server in a Docker Container for x86 ubuntu
 
 This image contains an Apache webserver configured to serve a webdav directory as `https://yourhost/webdav`. It is heavily influenced by the webdav images of [parente](https://hub.docker.com/r/parente/webdav/) and [morrisjobke](https://hub.docker.com/r/morrisjobke/webdav/).
 
